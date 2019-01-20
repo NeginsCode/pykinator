@@ -1,7 +1,7 @@
 import requests
 
 
-NEW_SESSION_URL = "http://api-en4.akinator.com/ws/new_session?partner=1"
+NEW_SESSION_URL = "https://srv6.akinator.com:9126/ws/answer?callback=jQuery331012933480820963106_1537742526308&session=151&signature=1931487911&step=0&answer=0&question_filter=&_=1537742526310"
 ANSWER_URL = "http://api-en4.akinator.com/ws/answer"
 GET_GUESS_URL = "http://api-en4.akinator.com/ws/list"
 CHOICE_URL = "http://api-en4.akinator.com/ws/choice"
@@ -28,6 +28,7 @@ def ans_to_strint(ans: str):
 game_over = False
 
 akinator_session = requests.get(NEW_SESSION_URL)
+print(akinator_session)
 akinator_data = akinator_session.json()
 
 
