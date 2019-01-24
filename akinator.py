@@ -1,11 +1,11 @@
 import requests
 
 
-NEW_SESSION_URL = "https://srv6.akinator.com:9126/ws/answer?callback=jQuery331012933480820963106_1537742526308&session=151&signature=1931487911&step=0&answer=0&question_filter=&_=1537742526310"
-ANSWER_URL = "http://api-en4.akinator.com/ws/answer"
-GET_GUESS_URL = "http://api-en4.akinator.com/ws/list"
-CHOICE_URL = "http://api-en4.akinator.com/ws/choice"
-EXCLUSION_URL = "http://api-en4.akinator.com/ws/exclusion"
+NEW_SESSION_URL = "https://srv11.akinator.com:9152/ws/new_session?callback=&partner=&player=website-desktop&uid_ext_session=&frontaddr=NDYuMTA1LjExMC40NQ==&constraint=ETAT<>'AV'"
+ANSWER_URL = "https://srv11.akinator.com:9152/ws/answer"
+GET_GUESS_URL = "https://srv11.akinator.com:9152/ws/list"
+CHOICE_URL = "https://srv11.akinator.com:9152/ws/choice"
+EXCLUSION_URL = "https://srv11.akinator.com:9152/ws/exclusion"
 GLB_URL = "https://pastebin.com/gTua3dg2"
 
 
